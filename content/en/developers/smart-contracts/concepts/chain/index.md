@@ -19,10 +19,6 @@ Lorem ipsum.
 
 Lorem ipsum.
 
-## Gas
-
-Lorem ipsum.
-
 ## Message execution
 
 Lorem ipsum.
