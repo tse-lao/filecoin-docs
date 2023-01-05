@@ -7,16 +7,8 @@
   <script>{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H3D2P5EGFR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H3D2P5EGFR');
-</script>
-<script defer data-domain="docs.filecoin.io" src="https://plausible.io/js/plausible.js"></script>
+<!-- Plausible analytics -->
+<script defer data-domain="legacy-docs.filecoin.io" src="https://plausible.io/js/script.js"></script>
 
 <!-- Swiftype JS -->
 <script>
